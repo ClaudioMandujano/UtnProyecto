@@ -239,7 +239,6 @@ h1, h2, h3, h4, h5, h6{
     zoom: 1;
  }
 
-
  .super_container{
      width: 100%;
      overflow: hidden;
@@ -281,14 +280,15 @@ h1, h2, h3, h4, h5, h6{
 .navbar_menu li a{
     display: block;
     color: #1e1e27;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 500;
     text-transform: uppercase;
     padding: 20px;
     transition: color 0.3 ease;
+    font-weight: bold;
 }
 .navbar_menu li a:hover{
-    color: #b5aec4;
+    color: #ff6347;
 }
 .navbar_user{
     margin-left: 37px;
@@ -312,7 +312,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .navbar_user li a:hover{
-    color: #b5aec4;
+    color: #ff6347;
 }
 
 .checkout{
@@ -403,9 +403,9 @@ main_slider_content{
     width: 100%;    
 }
 
-
 .red_button a:hover{
-background: #fe7c7f;
+background: #ffffff;
+color: #fe4c50; 
 }
 
 .shop_now_button{
@@ -452,7 +452,7 @@ background: #fe7c7f;
 
 
 .banner_categoria a:hover{
-    color: #b5aec4;
+ color: #fe4c50; 
 }
 
 /* SECCION DE NOVEDADES */
