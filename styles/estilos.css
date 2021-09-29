@@ -258,12 +258,11 @@ h1, h2, h3, h4, h5, h6{
     background: #ffffff;
     z-index: 10;
 }
-
 /*Menu de navegacion */
 
 .main_nav_container{
     width: 100%;
-    background: #ffffff;
+    background: #F2EDED;
     box-shadow: 0 0 16px rgba(0 , 0, 0,.015);
 }
 .navbar{
@@ -362,7 +361,7 @@ h1, h2, h3, h4, h5, h6{
 
 .main_slider{
  width: 100%;
- height: 700PX;
+ height: 500PX;
  background: no-repeat;
  background-size:  cover;
  background-position: center center;
@@ -731,6 +730,66 @@ color: #fe4c50;
     right: 0
 }
 
+/*FOOTER */
+.footer{
+    background-color: #F2EDED;
+    
+}
+
+.footer_nav_container{
+    height: 130px; 
+}
+
+.cr{
+    margin-right: 48px;
+}
+
+.footer_nav li{
+    display: inline-block;
+    margin-right: 45px;
+}
+
+.footer_nav li:last-child{
+    margin-right: 0px;
+}
+
+.footer_nav li a, .cr{
+    font-size: 14px;
+    color: #51545f;
+    line-height: 30px;
+    transition: all 300ms ease;
+}
+
+.footer_nav li a:hover, .cr a, .cr i{
+    color: #fe4c50;
+}
+
+.footer_social{
+    height: 130px;
+}
+
+.footer_social ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer_social ul li:last-child{
+    margin-right: 0px;
+}
+
+.footer_social ul li a{
+    color: #51545f;
+    transition: all 300ms ease;
+    padding: 10px;
+}
+
+.footer_social ul li:last-child a{
+    padding-right: 0px;
+}
+
+.footer_social ul li a:hover{
+    color: #fe4c50;
+}
 
 
 /* ***************************Responsive************************************************ */
